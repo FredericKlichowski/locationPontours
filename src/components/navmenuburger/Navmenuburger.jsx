@@ -1,0 +1,21 @@
+import React, { useState } from 'react';
+import { RiMenu2Line, RiCloseLine } from 'react-icons/ri';
+import './navmenuburger.css';
+
+function Navmenuburger() {
+  // the first variable will show us if are we currently showing the mobile menu
+  // the second is going to be a function that will let us change that variable
+  const [toggleMenu, setToggleMenu] = useState(false);
+  return (
+    <div className="portfolio__navbar-menu">
+      {toggleMenu ? (
+        <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+      ) : (
+        <RiMenu2Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+      )}
+      {toggleMenu && <div>Navlinks here</div>}
+    </div>
+  );
+}
+
+export default Navmenuburger;

@@ -1,0 +1,11 @@
+.locationPontours__homePage-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locationPontours__homePage-section {
+    min-height: 30vh;
+    font-weight: bold;
+}

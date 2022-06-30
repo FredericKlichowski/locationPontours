@@ -1,0 +1,7 @@
+.locationPontours__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}

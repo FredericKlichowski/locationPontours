@@ -1,0 +1,11 @@
+.locationPontours__navbar-container {
+    background-color: grey;
+    width: 100vw;
+    margin-bottom: 1rem;
+    padding: 2rem 0;
+}
+
+.locationPontours__navbar-linksContainer {
+   display: flex;
+   justify-content: center;
+}
